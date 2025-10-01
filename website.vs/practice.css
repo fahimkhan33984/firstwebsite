@@ -1,0 +1,255 @@
+/* Header styling */
+
+header {
+    height: 70px;
+    width: auto;
+    border-radius: 7px;
+    background-color: black;
+    /* dark blue-ish background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none
+}
+
+#jmi {
+    font-weight: bold;
+}
+
+body {
+    background-color: #faeab1;
+}
+
+
+/* Flex container for menu items */
+
+#div {
+    display: flex;
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+    height: 100%;
+    gap: 30px;
+    /* space between menu items */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 3s;
+}
+
+
+/* Styling for individual menu items */
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    color: gold;
+    /* light text */
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition-duration: 4s;
+}
+
+.task {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: 20px;
+    width: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header:hover {
+    background-color: black;
+    color: black;
+}
+
+.div1 :hover {
+    color: rgb(130, 137, 238);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.div1 :active {
+    color: rgb(38, 216, 240);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#jmi {
+    font-display: 9px;
+}
+
+.div2 :hover {
+    color: wheat;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.div2 :active {
+    color: rgb(38, 216, 240);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.div3 :hover {
+    color: rgb(69, 238, 111);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.div3 :active {
+    color: rgb(38, 216, 240);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.div4 :hover {
+    color: violet;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.div4 :active {
+    color: rgb(38, 216, 240);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+/*main content */
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.intro {
+    background: rgb(208, 186, 129);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-decoration: none;
+}
+
+.profile {
+    background: lavender;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width: 600px) {
+    /* Ye CSS sirf tab apply hogi jab screen width 600px ya usse chhoti ho */
+    body {
+        background-color: rgb(208, 186, 129);
+    }
+    .card {
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
+.skills {
+    background: lightgreen;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+/*footer ke liys css*/
+
+footer {
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+/* main footer container */
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 15px;
+}
+
+
+/* Links section */
+
+.footer-links {
+    background: darkred;
+    padding: 15px;
+    border-radius: 12px;
+    width: 50%;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 8px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+
+/* Contact section */
+
+.footer-contact {
+    background: teal;
+    padding: 15px;
+    border-radius: 12px;
+    width: 50%;
+}
+
+
+/* Bottom footer */
+
+.footer-bottom {
+    background: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-top: 3px solid gray;
+    font-size: 14px;
+}
+
+
+/* Default styles (desktop) */
+
+.card {
+    width: 400px;
+    margin: 50px auto;
+    padding: 2rem;
+}

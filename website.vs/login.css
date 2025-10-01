@@ -1,0 +1,93 @@
+  input {
+      height: 23px;
+      border-radius: 5px;
+  }
+  
+  .action {
+      margin-top: 18px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+  }
+  
+  button:hover {
+      background-color: blue;
+  }
+  
+  button {
+      background-color: red;
+      border-color: azure;
+      border-width: 3px;
+      color: white;
+      border-radius: 11px;
+      height: 31px;
+      width: 75px;
+      font-size: 17px;
+  }
+  
+  .log {
+      text-decoration: none;
+      color: white;
+  }
+  
+  .button:active {
+      transform: translateX(3px);
+      background-color: rgb(58, 218, 58);
+  }
+  
+  h1 {
+      margin: 0 0 14px 0;
+      font-size: 30px;
+      text-align: centre;
+      text-decoration: underline red;
+  }
+  
+  label {
+      display: block;
+      font-size: 20px;
+      column-rule: white;
+  }
+  
+  .link {
+      background-color: white;
+  }
+  
+  .card {
+      margin-bottom: 7px;
+      border-color: black;
+      border-width: 50px;
+      align-items: center;
+      width: 220px;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: black;
+      /* background image */
+      background-image: url("imagefosite.jpg");
+      /* apni image ka path yahan dalen */
+      background-size: cover;
+      /* poori screen ko cover karega */
+      background-position: center;
+      /* image ko center me set karega */
+      background-repeat: no-repeat;
+      /* repeat hone se roke */
+      height: 100vh;
+      /* full viewport height */
+  }
+  /* card ko center me lane ke liye */
+  
+  .card {
+      background: #cbcbcb;
+      /* thoda transparent white background */
+      padding: 2rem;
+      border-radius: 12px;
+      width: 320px;
+      margin: auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
